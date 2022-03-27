@@ -17,12 +17,12 @@ User Stories
 6. As a user, I should be able to view charts on upcoming events so that I can view events by city.
 
 Technical Details
-• React
-• TDD technique
-• Google Calendar API
-• OAuth2 authentication flow
-• AWS lambda serverless functions
-• displays on Chrome, Firefox, Safari, Edge, Opera, and IE11
-• displays on all screen sizes
-• pass Lighthouse's PAW checklist
-• gh-pages
+- React
+- TDD technique
+- Google Calendar API
+- OAuth2 authentication flow
+- AWS lambda serverless functions
+- displays on Chrome, Firefox, Safari, Edge, Opera, and IE11
+- displays on all screen sizes
+- pass Lighthouse's PAW checklist
+- gh-pages
