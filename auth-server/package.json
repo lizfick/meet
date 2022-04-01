@@ -1,19 +1,16 @@
 {
   "name": "meet",
   "version": "0.1.0",
+  "homepage": "https://lizfick.github.io/meet",
   "private": true,
-  "homepage": "https://alexanderkohr.github.io/meet/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "atatus-spa": "^4.4.1",
-    "axios": "^0.26.1",
-    "nprogress": "^0.2.0",
+    "googleapis": "^99.0.0",
     "react": "^17.0.2",
-    "react-bootstrap": "^2.2.1",
     "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^2.1.3",
     "web-vitals": "^0.2.4",
     "workbox-background-sync": "^5.1.4",
     "workbox-broadcast-update": "^5.1.4",
@@ -55,10 +52,18 @@
     ]
   },
   "devDependencies": {
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
-    "enzyme": "^3.11.0",
-    "gh-pages": "^3.2.3",
-    "jest-cucumber": "^3.0.1",
-    "puppeteer": "^13.5.1"
-  }
+    "gh-pages": "^3.2.3"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizfick/meet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizfick/meet/issues"
+  },
+  "description": ""
 }
