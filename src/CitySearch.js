@@ -4,12 +4,12 @@ class CitySearch extends Component {
   state = {
     query: '',
     suggestions: [],
-    showSuggestions: undefined
+    showSuggestions: true
   }
 
   hanldeInputChanged = (event) => {
     const value = event.target.value;
-    const suggestions = this.props.locations.filter((location) => {
+    const suggestions = this.props.locations?.filter((location) => {
       return location.toUpperCase().indexOf(value.toUpperCase()) > -1
     });
     this.setState({
@@ -38,7 +38,7 @@ class CitySearch extends Component {
           onFocus={() => { this.setState({ showSuggestions: true }) }}
         />
         <ul className='suggestions' style={this.state.showSuggestions ? {} : { display: 'none' }}>
-          {this.state.suggestions.map((suggestion) => (
+          {this.state.suggestions?.map((suggestion) => (
             <li
               key={suggestion}
               onClick={() => this.handleItemClicked(suggestion)}
